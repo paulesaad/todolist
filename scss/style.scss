@@ -87,3 +87,69 @@ img {
 /**
  * YOUR CODE HERE
  */
+
+* {
+    font-family: 'Inconsolata', 'sans-serif';
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.loginView{
+    font-size: 0;
+    header{
+        position: relative;
+        margin: auto;
+        h1 {
+            text-align: center;
+        }
+        span{
+            font-size: 1.5rem;
+            position: absolute;
+            right: 0%;
+            top: 100%;
+        }
+    }
+
+    > div{
+        font-size: medium;
+        margin: 8rem auto;
+        display: inline-block;
+        width: 33%;
+        vertical-align: top;
+        input{
+            width: 100%;
+        }
+
+        &.dividers{
+            span{
+                font-size: 10rem;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.done{
+    p{
+        text-decoration: line-through;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
